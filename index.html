@@ -21,51 +21,53 @@
     />
   </head>
   <body>
-    <div class="container">
-      <img class="logo" src="./assets/logo.svg" alt="Logo RocketNews" />
-      <section id="text">
-        <div class="title">
+    <main>
+      <div class="container">
+        <header>
+          <img class="logo" src="./assets/logo.svg" alt="Logo RocketNews" />
+        </header>
+
+        <div class="news">
           <h2>atualize ideias e informações em 5 minutos.</h2>
-        </div>
-        <div class="p1">
-          <p>
-            <strong
-              >tudo que você precisa saber para começar seu dia bem e
-              informado</strong
-            >
-          </p>
-        </div>
-        <div class="p2">
+          <h3>
+            tudo que você precisa saber para começar seu dia bem e informado
+          </h3>
           <p>
             notícias sobre o universo Rocketseat e tudo o que precisa para
-            começar o dia melhor.
-            <br />
-            perfeito para se preparar para codar
+            começar o dia melhor. <br />perfeito para se preparar para codar ☕
           </p>
         </div>
-      </section>
-      <form action="" method="">
-        <div class="form">
-          <label for="email">Insira seu email:</label><br />
+
+        <form id="form">
+          <fieldset>
+            <legend>Insira seu e-mail:</legend>
+          </fieldset>
+          <div class="email">
+            <input type="email" id="email" placeholder="oi@rocketseat.com" />
+            <button id="button">
+              <i class="icon-compass"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="link">
+          <a href="#"
+            ><span>deixe-me ler primeiro </span>
+            <i class="icon-arrow-right2"></i
+          ></a>
         </div>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="oi@rocketseat.com"
-        />
-        <button type="submit">Enviar</button>
-      </form>
-      <div class="link">
-        <a href="#">deixe-me ler primeiro <i class="icon-arrow-right2"></i></a>
       </div>
-    </div>
-    <section id="image">
-      <img
-        class="img"
-        src="./assets/read_news.jpg"
-        alt="Homem lendo notícias online"
-      />
-    </section>
+    </main>
+    <aside></aside>
   </body>
 </html>
+
+<!-- 
+</div>
+<section id="image">
+  <img
+    class="img"
+    src="./assets/read_news.jpg"
+    alt="Homem lendo notícias online"
+  />
+</section> -->
