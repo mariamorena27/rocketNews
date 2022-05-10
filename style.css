@@ -34,7 +34,7 @@ aside {
   height: 100vh;
   background-image: url(./assets/read_news.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -51,6 +51,10 @@ aside {
   margin-left: 1.875rem;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .news {
   width: 45rem;
   height: 6.375rem;
@@ -58,19 +62,19 @@ aside {
   margin-left: 2.25rem;
 }
 
-h2 {
+.news h2 {
   color: var(--title-color);
   font: 700 1.5rem var(--title-font);
   line-height: 1.76rem;
 }
 
-h3 {
+.news h3 {
   color: var(--text-color);
   font: 700 var(--body-font-size) var(--body-font);
   line-height: 1.75rem;
 }
 
-p {
+.news p {
   color: var(--text-color);
   font: 400 var(--body-font-size) var(--body-font);
   line-height: 1.21rem;
@@ -81,12 +85,12 @@ p {
   margin-left: 2.25rem;
 }
 
-fieldset {
+#form fieldset {
   border: none;
   padding: 0;
 }
 
-legend {
+#form legend {
   color: var(--form-color);
   font: 700 var(--body-font-size) var(--body-font);
   line-height: 1.18rem;
@@ -116,6 +120,10 @@ legend {
   z-index: 1;
 }
 
+#button:hover {
+  cursor: pointer;
+}
+
 .link {
   margin-top: 3.125rem;
   margin-left: 2.25rem;
@@ -128,4 +136,8 @@ legend {
   font: 700 var(--body-font-size) var(--body-font);
   color: var(--bg-button-color);
   text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
 }
