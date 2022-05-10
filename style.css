@@ -5,6 +5,8 @@
   --title-color: #04D361;
   --form-color: #A8A8A8;
   --bg-button-color: #8257e5;
+  --bg-button-color-hover: #5f41a5;
+
 
   /* fonts */
   --body-font-size: 1.125rem;
@@ -53,6 +55,7 @@ aside {
 
 .logo:hover {
   cursor: pointer;
+  transform: scale(1.025, 1.025);
 }
 
 .news {
@@ -127,11 +130,13 @@ input:focus { /*retirar a borda do input quando clicado*/
 
 #button:hover {
   cursor: pointer;
+  background-color: var(--bg-button-color-hover);
 }
 
 .link {
   margin-top: 3.125rem;
   margin-left: 2.25rem;
+  width: fit-content;
 }
 
 .link a {
@@ -143,6 +148,7 @@ input:focus { /*retirar a borda do input quando clicado*/
   text-decoration: none;
 }
 
-.link:hover {
+.link a:hover {
   cursor: pointer;
+  color: var(--bg-button-color-hover);
 }
