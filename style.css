@@ -9,7 +9,7 @@
 
 
   /* fonts */
-  --body-font-size: 1.125rem;
+  --body-font-size: 1.25rem;
 
   --title-font: 'Work Sans', sans-serif;
   --body-font: 'League Spartan', sans-serif;
@@ -23,8 +23,9 @@
 
 body {
   height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: 45rem 1fr;
+  grid-template-columns: 50% 1fr;
 }
 
 main {
@@ -47,7 +48,7 @@ aside {
 }
 
 .logo {
-  max-width: 24.3125rem;
+  width: 24.3125rem;
   height: 5.875rem;
   margin-top: 3.125rem;
   margin-left: 1.875rem;
@@ -67,20 +68,20 @@ aside {
 
 .news h2 {
   color: var(--title-color);
-  font: 700 1.5rem var(--title-font);
-  line-height: 1.76rem;
+  font: 700 1.7rem var(--title-font);
+  line-height: 2rem;
 }
 
 .news h3 {
   color: var(--text-color);
   font: 700 var(--body-font-size) var(--body-font);
-  line-height: 1.75rem;
+  line-height: 2rem;
 }
 
 .news p {
   color: var(--text-color);
   font: 400 var(--body-font-size) var(--body-font);
-  line-height: 1.21rem;
+  line-height: 1.25rem;
 }
 
 #form {
@@ -93,7 +94,7 @@ aside {
   padding: 0;
 }
 
-#form legend {
+#form label {
   color: var(--form-color);
   font: 700 var(--body-font-size) var(--body-font);
   line-height: 1.18rem;
